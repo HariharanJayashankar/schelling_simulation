@@ -11,5 +11,11 @@ At this moment this is how the algorithm implemented here works:
 - a given threshold of people are happy (by defualt 100% but can change it using `board_happy_thresh` argument in `simulate`) - end the game.
 - else go back to step 2.
 
+
+
+## Output
+
+![](schelling_simulation.gif)
+
 # End Notes
 - <sup>1</sup> Individuals are happy if a certain percentage of their neighbours are of the same group as they are. If the share of squares (including empty ones!) around them exceeds `kindshare_thresh`, they are happy.
